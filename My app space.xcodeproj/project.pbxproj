@@ -13,6 +13,10 @@
 		C445A9041ADA05C600EA204E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C445A9031ADA05C600EA204E /* Images.xcassets */; };
 		C445A9071ADA05C600EA204E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C445A9051ADA05C600EA204E /* LaunchScreen.xib */; };
 		C445A9131ADA05C700EA204E /* My_app_spaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A9121ADA05C700EA204E /* My_app_spaceTests.swift */; };
+		C445A91D1ADA0D9B00EA204E /* CollectionCellViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A91C1ADA0D9B00EA204E /* CollectionCellViewCell.swift */; };
+		C445A91F1ADC0F6800EA204E /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A91E1ADC0F6800EA204E /* post.swift */; };
+		C445A9211ADC0FD000EA204E /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A9201ADC0FD000EA204E /* Server.swift */; };
+		C445A9231ADC441300EA204E /* DetailsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A9221ADC441300EA204E /* DetailsUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		C445A90C1ADA05C600EA204E /* My app spaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My app spaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C445A9111ADA05C600EA204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C445A9121ADA05C700EA204E /* My_app_spaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_app_spaceTests.swift; sourceTree = "<group>"; };
+		C445A91C1ADA0D9B00EA204E /* CollectionCellViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellViewCell.swift; sourceTree = "<group>"; };
+		C445A91E1ADC0F6800EA204E /* post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		C445A9201ADC0FD000EA204E /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		C445A9221ADC441300EA204E /* DetailsUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,16 @@
 		C445A8F91ADA05C600EA204E /* My app space */ = {
 			isa = PBXGroup;
 			children = (
+				C445A9201ADC0FD000EA204E /* Server.swift */,
 				C445A8FC1ADA05C600EA204E /* AppDelegate.swift */,
 				C445A8FE1ADA05C600EA204E /* ViewController.swift */,
 				C445A9001ADA05C600EA204E /* Main.storyboard */,
 				C445A9031ADA05C600EA204E /* Images.xcassets */,
 				C445A9051ADA05C600EA204E /* LaunchScreen.xib */,
 				C445A8FA1ADA05C600EA204E /* Supporting Files */,
+				C445A91C1ADA0D9B00EA204E /* CollectionCellViewCell.swift */,
+				C445A91E1ADC0F6800EA204E /* post.swift */,
+				C445A9221ADC441300EA204E /* DetailsUIViewController.swift */,
 			);
 			path = "My app space";
 			sourceTree = "<group>";
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C445A9211ADC0FD000EA204E /* Server.swift in Sources */,
+				C445A9231ADC441300EA204E /* DetailsUIViewController.swift in Sources */,
 				C445A8FF1ADA05C600EA204E /* ViewController.swift in Sources */,
 				C445A8FD1ADA05C600EA204E /* AppDelegate.swift in Sources */,
+				C445A91D1ADA0D9B00EA204E /* CollectionCellViewCell.swift in Sources */,
+				C445A91F1ADC0F6800EA204E /* post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +355,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My app space/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,8 +367,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My app space/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

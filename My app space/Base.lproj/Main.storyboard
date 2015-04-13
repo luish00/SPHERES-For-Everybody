@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Principal-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="My_app_space" customModuleProvider="target" sceneMemberID="viewController">
@@ -51,7 +51,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="cCK-ct-y2D"/>
+                    <tabBarItem key="tabBarItem" title="Principal" id="cCK-ct-y2D"/>
                     <navigationItem key="navigationItem" id="YpW-bj-Pav"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>

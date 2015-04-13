@@ -63,7 +63,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell:CollectionCellViewCell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as CollectionCellViewCell
+        let cell:PostViewTableCell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as PostViewTableCell
         
         if listPost[indexPath.row].img != ""{
             

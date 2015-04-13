@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="580"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="218" id="ZwT-Nb-FcG" customClass="CollectionCellViewCell" customModule="My_app_space" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="218" id="ZwT-Nb-FcG" customClass="PostViewTableCell" customModule="My_app_space" customModuleProvider="target">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZwT-Nb-FcG" id="KSe-Q7-TMs">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -37,8 +37,8 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="img" destination="y4c-7a-WmA" id="kVh-Tm-xeL"/>
-                                            <outlet property="label" destination="h06-dV-PFE" id="J9K-5M-x0c"/>
+                                            <outlet property="img" destination="y4c-7a-WmA" id="nqF-Cy-FiZ"/>
+                                            <outlet property="label" destination="h06-dV-PFE" id="VYK-R6-2s8"/>
                                             <segue destination="0jS-0m-5zH" kind="show" identifier="detalles" id="SKn-bi-CqY"/>
                                         </connections>
                                     </tableViewCell>
@@ -55,7 +55,7 @@
                     <navigationItem key="navigationItem" id="YpW-bj-Pav"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="myTable" destination="7Ev-PM-wsN" id="dB2-iH-wa9"/>
+                        <outlet property="myTable" destination="7Ev-PM-wsN" id="oxr-5Y-jJO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
